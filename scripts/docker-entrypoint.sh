@@ -11,7 +11,7 @@ if [ -n "$COMPOSIO_API_KEY" ]; then
     mkdir -p /paperclip/.codex
     cat > /paperclip/.codex/config.toml << EOF
 [mcp_servers.composio-gmail]
-url = "https://backend.composio.dev/v3/mcp/gmail?user_id=bibinbabu04_workspace"
+url = "url = "https://backend.composio.dev/v3.1/mcp/a6454f21-b7a0-4513-9f8b-c9c9b088e1b7?user_id=default""
 http_headers = { "x-api-key" = "$COMPOSIO_API_KEY" }
 enabled = true
 startup_timeout_sec = 30
